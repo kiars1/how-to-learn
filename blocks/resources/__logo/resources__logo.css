@@ -4,3 +4,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+.resources__logo:hover {
+  opacity: 50%;
+  transition: opacity .3s linear;
+}
