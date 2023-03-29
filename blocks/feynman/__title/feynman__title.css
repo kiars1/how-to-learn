@@ -8,3 +8,19 @@
   margin: auto;
   z-index: 2;
 }
+
+@media screen and (max-width: 1000px) {
+  .feynman__title {
+    width: 90%;
+    font-size: 55px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feynman__title {
+    width: 90%;
+    font-size: 35px;
+    line-height: 1;
+  }
+}

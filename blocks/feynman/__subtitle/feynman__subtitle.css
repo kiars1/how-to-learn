@@ -9,3 +9,19 @@
   margin-top: 70px;
   margin-bottom: 0px;
 }
+
+@media screen and (max-width: 1000px) {
+  .feynman__subtitle {
+    font-size: 26px;
+    margin-top: 20px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feynman__subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+}

@@ -6,3 +6,10 @@
   object-fit: cover;
   object-position: top;
 }
+
+@media screen and (max-width: 1120px) {
+  .khan__book-pic {
+    height: 56vw;
+    margin-right: 4vw;
+  }
+}

@@ -9,3 +9,10 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 650px) {
+  .header__main-illustration {
+    right: -200px;
+    height: 408px;
+    width: 565px;
+  }
+}

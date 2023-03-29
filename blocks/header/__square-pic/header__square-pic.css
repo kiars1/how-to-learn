@@ -7,3 +7,10 @@
   right: 0px;
   z-index: 0;
 }
+
+@media screen and (max-width: 650px) {
+  .header__square-pic {
+    height: 368px;
+    width: 368px;
+  }
+}

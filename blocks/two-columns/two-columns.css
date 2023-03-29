@@ -1,8 +1,14 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  max-width: calc(1600px/100*70);
   margin: auto;
   font-size: 24px;
   margin-top: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .two-columns {
+    width: 90%;
+  }
 }

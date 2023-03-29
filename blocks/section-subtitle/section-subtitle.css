@@ -7,3 +7,10 @@
   margin: auto;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .section-subtitle {
+    font-size: 18px;
+    line-height: 1;
+  }
+}

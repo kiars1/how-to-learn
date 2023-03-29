@@ -3,6 +3,12 @@
   font-size: 24px;
   font-weight: normal;
   width: 80%;
-  min-width: 784px;
   margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .two-columns__main-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }

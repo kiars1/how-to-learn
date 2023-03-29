@@ -4,3 +4,10 @@
   font-weight: normal;
   margin: 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .khan__author {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}

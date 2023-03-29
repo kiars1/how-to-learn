@@ -4,6 +4,7 @@
   font-style: normal;
   color: white;
   text-decoration: none;
+  display: flex;
 }
 
 .footer__column-link:hover {

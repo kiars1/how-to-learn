@@ -6,3 +6,10 @@
   margin-bottom: 0px;
   padding: 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .table__text {
+    text-align: center;
+    font-size: 16px;
+  }
+}

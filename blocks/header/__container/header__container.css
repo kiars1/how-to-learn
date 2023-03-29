@@ -1,0 +1,10 @@
+.header__container {
+    max-height: 756px;
+    background-color:  #f2f2f2;
+    position: relative;
+    align-items: center;
+    display: grid;
+    max-width: 1600px;
+    margin: auto;
+    overflow: hidden;
+}

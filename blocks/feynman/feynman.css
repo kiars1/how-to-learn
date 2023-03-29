@@ -4,3 +4,15 @@
   position: relative;
   min-height: 790px;
 }
+
+@media screen and (max-width: 1000px) {
+  .feynman {
+    min-height: 60vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feynman {
+    min-height: 50vw;
+  }
+}

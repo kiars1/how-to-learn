@@ -3,6 +3,18 @@
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  width: 90%;
+  min-width: calc(1600px/100*90);
   margin: 0px auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .footer__columns {
+    min-width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__columns {
+    max-width: 90%;
+  }
 }
